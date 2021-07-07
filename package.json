@@ -1,0 +1,25 @@
+{
+  "name": "airbnbtransactiondaysplitter",
+  "version": "1.0.0",
+  "description": "AirBnB Transaction Day Splitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilasReinagel/AirBNBTransactionDaySplitter.git"
+  },
+  "keywords": [
+    "AirBnB"
+  ],
+  "author": "Silas Reinagel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SilasReinagel/AirBNBTransactionDaySplitter/issues"
+  },
+  "homepage": "https://github.com/SilasReinagel/AirBNBTransactionDaySplitter#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0"
+  }
+}

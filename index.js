@@ -48,7 +48,7 @@ const getTransformedRows = dataRows => {
   dataRows
     .filter(i => i.Type != "Payout")
     .forEach(i => {
-      if (i.Type == 'Reservation')
+      if (i.Type == 'Reservation' || i.Type == 'Adjustment' || i.Type == 'Resolution Adjustment' || i.Type == 'Resolution Payout')
       {
         const numNights = i.Nights;
         const amount = i.Amount;
